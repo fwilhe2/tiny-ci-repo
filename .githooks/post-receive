@@ -3,4 +3,5 @@ while read -r _ newrev ref
 do
 	id=$(uuid)
 	echo "Starting CI job $id"
+	echo "Starting CI job $id" >> /tmp/ci-log.txt
 done
