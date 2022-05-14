@@ -1,0 +1,6 @@
+#!/bin/bash
+while read -r _ newrev ref
+do
+	id=$(uuid)
+	echo "Starting CI job $id"
+done
